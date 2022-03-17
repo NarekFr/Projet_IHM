@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -14,6 +14,10 @@ SOURCES += \
         cprojet.cpp
 
 HEADERS += \
+        cclient.h \
+        cmysql.h \
+        cpensionnaire.h \
+        cprestation.h \
         cprojet.h
 
 FORMS += \

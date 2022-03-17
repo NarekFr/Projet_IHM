@@ -3,6 +3,11 @@
 
 #include <QMainWindow>
 
+#include "cmysql.h"
+#include "cclient.h"
+#include "cprestation.h"
+#include "cpensionnaire.h"
+
 namespace Ui {
     class CProjet;
 }
